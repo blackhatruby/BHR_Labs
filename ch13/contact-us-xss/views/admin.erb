@@ -1,0 +1,63 @@
+<%#
+  ========================================================= #
+  This file is a part of { Black Hat Ruby } book lab files. #
+  ========================================================= #
+  Author:
+    Sabri | @KINGSABRI
+  Description:
+    A vlnerable Web Application with Blind Stored XSS
+  Requirements:
+    gem install sinatra rerun
+    ruby contact-us.rb
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+
+<div class="container">
+  <h1>Admin Page</h1>
+</div>
+
+<h2>Messages:</h2>
+
+<% $messages.each do |message| %>
+  <div class="container">
+    <p><b>Sender:</b> <%= message['firstname'] %> <%= message['lastname'] %> </p>
+    <p><b>Message:</b></p>
+    <%= message['message'] %>
+  </div><br>
+<% end %>

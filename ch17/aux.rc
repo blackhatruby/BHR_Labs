@@ -1,0 +1,5 @@
+Resource file (aux.rc)
+use auxiliary/scanner/http/fsws_finder
+set RHOSTS 192.168.100.55
+set RPORT 80
+run

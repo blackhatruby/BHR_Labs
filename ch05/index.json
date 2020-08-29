@@ -1,0 +1,131 @@
+{
+  "book": {
+    "lang": "English",
+    "title": "Black Hat Ruby",
+    "description": "Offensive Ruby Programming for Hackers and Pentesters",
+    "toc": {
+      "orderedlist": [
+        {
+          "module": {
+            "name": "Introduction",
+            "id": "1",
+            "chapters": [
+              {
+                "name": "Introduction",
+                "id": "1"
+              },
+              {
+                "name": "Setting Up Your Development Environment",
+                "id": "2"
+              }
+            ]
+          }
+        },
+        {
+          "module": {
+            "name": "The Hacker's most used Codes in Ruby",
+            "id": "2",
+            "chapters": [
+              {
+                "name": "Ruby in Terminal",
+                "id": "3"
+              },
+              {
+                "name": "String Conversion, Extraction and Generation",
+                "id": "4"
+              }
+            ]
+          }
+        },
+        {
+          "module": {
+            "name": "System Hacking",
+            "id": "3",
+            "chapters": [
+              {
+                "name": "File Manipulation",
+                "id": "5"
+              },
+              {
+                "name": "Cryptography",
+                "id": "6"
+              },
+              {
+                "name": "System Command Execution",
+                "id": "7"
+              },
+              {
+                "name": "Windows Red Team Tactics",
+                "id": "8"
+              }
+            ]
+          }
+        },
+        {
+          "module": {
+            "name": "Network Hacking",
+            "id": "4",
+            "chapters": [
+              {
+                "name": "Ruby Socket for Hackers",
+                "id": "9"
+              },
+              {
+                "name": "Network Services and Clients",
+                "id": "10"
+              },
+              {
+                "name": "Network Packet Manipulation and Protocols Attacks",
+                "id": "11"
+              }
+            ]
+          }
+        },
+        {
+          "module": {
+            "name": "Web Hacking",
+            "id": "5",
+            "chapters": [
+              {
+                "name": "Dealing with HTTP in Ruby",
+                "id": "12"
+              },
+              {
+                "name": "Hunting and Exploiting XSS by Browser Automation",
+                "id": "13"
+              },
+              {
+                "name": "Exploiting Web Services and APIs for C2",
+                "id": "14"
+              },
+              {
+                "name": "Extending and Controlling Burp Suite",
+                "id": "15"
+              }
+            ]
+          }
+        },
+        {
+          "module": {
+            "name": "Module 6 | Exploitation",
+            "id": "6",
+            "chapters": [
+              {
+                "name": "Writing Fuzzers and Exploits",
+                "id": "16"
+              },
+              {
+                "name": "Metasploit Development",
+                "id": "17"
+              }
+            ]
+          }
+        }
+      ],
+      "note": {
+        "text": "KING SABRI | @KINGSABRI",
+        "remark": "eJwrNzAoUVQoKU9NLVEoyUhVCCpNqlRIzk9JBfISSxSK83PKUouB7MxiheSMxJyc1Lx0oFS+ggNIYVopAMCtFpw="
+      }
+    }
+  }
+}

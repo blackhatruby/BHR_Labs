@@ -1,0 +1,21 @@
+<%#
+  ========================================================= #
+  This file is a part of { Black Hat Ruby } book lab files. #
+  ========================================================= #
+  Author:
+    Sabri | @KINGSABRI
+  Description:
+    A vlnerable Web Application with Blind Stored XSS
+  Requirements:
+    gem install sinatra rerun
+    ruby contact-us.rb
+%>
+
+<h1>Login</h1>
+<br>
+
+<form method="POST" action="/login">
+    <input type="text"     placeholder="Username" name="username" value="<%= @username %>"/><br>
+    <input type="password" placeholder="Password" name="password" value="<%= @password %>"/><br>
+    <input type="submit" name="button" value="Login" />
+</form>

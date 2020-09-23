@@ -1,4 +1,7 @@
 # Black Hat Ruby Labs
+
+![BookCover](BHR-Cover.png)
+
 Welcome to the Black Hat Ruby labs repository. 
 
 This repository is publicly available repository for all files related to Black Hat Ruby Book. If you have any related questions or bugs, please open a new [issue](https://github.com/blackhatruby/BHR_Labs/issues).
@@ -99,7 +102,7 @@ This repository is publicly available repository for all files related to Black 
 │   ├── detect-os.rb
 │   └── execute-system-commands.rb
 ```
-### Chapter 8 – Windows Red Team Tactics
+### Chapter 8 – Windows Red Team Techniques
 ```
 📁
 ├── ch08

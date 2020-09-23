@@ -4,7 +4,7 @@
 
 Welcome to the Black Hat Ruby labs repository. 
 
-This repository is publicly available repository for all files related to Black Hat Ruby Book. If you have any related questions or bugs, please open a new [issue](https://github.com/blackhatruby/BHR_Labs/issues).
+This repository is publicly available repository for all files related to [Black Hat Ruby Book](https://www.amazon.com/dp/B08JHSF6GT). If you have any related questions or bugs, please open a new [issue](https://github.com/blackhatruby/BHR_Labs/issues).
 
 ## Module 1:  Introduction
 ### Chapter 1 – Introduction
